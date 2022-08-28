@@ -1,0 +1,36 @@
+.qualities__list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.qualities__item {
+    width: 270px;
+    margin-right: 30px;
+    &:last-child {
+      margin-right: 0px;
+  }
+}
+.quality { 
+  height: 120px; 
+  background: #F5F4FA;
+  border-radius: 4px;
+  margin-bottom: 30px;
+  @extend %alignlink;    
+}
+
+.qualities__title {
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+
+    text-align: left;
+  }
+
+.qualities__text {
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--primary-text-color);
+  }
+
